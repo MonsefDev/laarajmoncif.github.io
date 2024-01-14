@@ -46,7 +46,7 @@ a:hover {
 }
 
 .imgcetifcat {
-  width: 40%;
+  width: 25%;
 }
 h1,
 h2,
@@ -110,7 +110,9 @@ section h3.section-subheading {
 .btn-primary {
  /*background-color: #007bff;
   border-color: #007bff;*/
+  
 }
+
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #007bff !important;
@@ -656,10 +658,9 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/header-bg1.jpg");
+  background-image: url("../img/contact-me.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
 }
 
 section#contact .section-heading {
@@ -1032,7 +1033,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
       background-attachment: scroll;
       background-position: center center;
       background-size: 100% 100%;
-      opacity: 0.7;
+      /*opacity: 0.7;*/
       width: 100%;
       /* height: 100%; */
   }
@@ -1488,7 +1489,7 @@ label::before {
   transition: opacity 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 label .burger {
-  position: fixed;
+  position: absolute;
   top: 1em;
   left: 1em;
   z-index: 3;
@@ -1651,3 +1652,12 @@ main .content {
 
  
  
+.text-muted {
+  list-style-type: square;
+  text-align: center;
+}
+
+.img-projet{
+  width: 350px;
+  height: 225px;
+}
